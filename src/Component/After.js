@@ -9,7 +9,7 @@ export default function After(props) {
   return (
     <div className='flex justify-center align-middle'>
       <div class="md:mt-8 flex justify-center flex-col items-center  ">
-        <h1 className='text-3xl  mt-20 font-medium'>Bank Details</h1>
+        <h1 className='text-3xl  mt-20 font-bold'>Bank Details</h1>
         <div className='w-[80%] md:w-[60%] mt-4 mb-8 ' >
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque non reiciendis quod provident unde nostrum tempora, perferendis fuga quos odit vel nobis harum adipisci. Deserunt rerum dolorum a est commodi veniam iure voluptate. Placeat.
           </p>

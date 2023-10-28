@@ -13,7 +13,7 @@ export default function Before(props) {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque non reiciendis quod provident unde nostrum tempora, perferendis fuga quos odit vel nobis harum adipisci. Deserunt rerum dolorum a est commodi veniam iure voluptate. Placeat.
           </p>
         </div>
-        <form className=' shadow-2xl w-[95%] px-0 md:px-10 py-10 md:w-[70%]'>
+        <form className=' shadow-2xl w-[95%] px-0 md:px-10 py-10 md:w-[60%]'>
           <div class="flex flex-wrap gap-4 md:gap-[9rem]  justify-left items-center mb-6">
             <div class="">
               <label class="block font-semibold md:text-right mb-0 px-6 pr-2" for="inline-full-name">
