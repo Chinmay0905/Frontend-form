@@ -12,19 +12,19 @@ export default function Navbar() {
                                         <div class="items-center justify-between  hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                                                 <ul class="flex flex-col gap-20 p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                                                         <li class="flex flex-col">
-                                                                <a href="#" class=" relative w-fit block text-2xl py-2 pl-3 pr-4 text-green-700 rounded  md:p-0 after:block after:content-[''] after:absolute after:h-[3px] after:bg-green-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" aria-current="page">Home</a>
+                                                                <a href="/#" class=" relative w-fit block text-2xl py-2 pl-3 pr-4 text-green-700 rounded  md:p-0 after:block after:content-[''] after:absolute after:h-[3px] after:bg-green-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" aria-current="page">Home</a>
                                                         </li>
                                                         <li>
-                                                                <a href="#" class=" relative w-fit block text-2xl py-2 pl-3 pr-4 text-black rounded  md:p-0 after:block after:content-[''] after:absolute after:h-[3px] after:bg-green-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Services</a>
+                                                                <a href="/#" class=" relative w-fit block text-2xl py-2 pl-3 pr-4 text-black rounded  md:p-0 after:block after:content-[''] after:absolute after:h-[3px] after:bg-green-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Services</a>
                                                         </li>
                                                         <li>
-                                                                <a href="#" class=" relative w-fit block text-2xl py-2 pl-3 pr-4 text-black rounded  md:p-0 after:block after:content-[''] after:absolute after:h-[3px] after:bg-green-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Blog</a>
+                                                                <a href="/#" class=" relative w-fit block text-2xl py-2 pl-3 pr-4 text-black rounded  md:p-0 after:block after:content-[''] after:absolute after:h-[3px] after:bg-green-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Blog</a>
                                                         </li>
                                                         <li>
-                                                                <a href="#" class=" relative w-fit block text-2xl py-2 pl-3 pr-4 text-black rounded  md:p-0 after:block after:content-[''] after:absolute after:h-[3px] after:bg-green-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Offers</a>
+                                                                <a href="/#" class=" relative w-fit block text-2xl py-2 pl-3 pr-4 text-black rounded  md:p-0 after:block after:content-[''] after:absolute after:h-[3px] after:bg-green-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Offers</a>
                                                         </li>
                                                         <li>
-                                                                <a href="#" class=" relative w-fit block text-2xl py-2 pl-3 pr-4 text-black rounded  md:p-0 after:block after:content-[''] after:absolute after:h-[3px] after:bg-green-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">About Us</a>
+                                                                <a href="/#" class=" relative w-fit block text-2xl py-2 pl-3 pr-4 text-black rounded  md:p-0 after:block after:content-[''] after:absolute after:h-[3px] after:bg-green-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">About Us</a>
                                                         </li>
                                                 </ul>
                                         </div>

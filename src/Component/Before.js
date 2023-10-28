@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 // This is the Before page which consists of an input form in which we have to filled the details.
 // We have used props to update the value of the inputs field.

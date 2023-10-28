@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 // This is the After page which denotes the preview of filled details of the user.
 
