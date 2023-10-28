@@ -31,7 +31,7 @@ function Sidebar() {
 
                                 :
                                 (
-                                        <div className="top-0 left-0 bg-white fixed w-[90vw] md:w-[20vw] h-full md:mt-16  py-3 border-2 ">
+                                        <div className="top-0 left-0 bg-white fixed w-[90vw] md:w-[17vw] h-full md:mt-16  py-3 border-2 ">
                                                 <div className="px-8 mb-3 ">
 
                                                         <button onClick={() => { setIsOpen(!isOpen) }}>
@@ -58,7 +58,7 @@ function Sidebar() {
 
                                                 <div onClick={() => setSelected(2)} className=" mb-4 flex flex-col" >
                                                         <div className={selected === 2 ? `flex py-2.5 bg-green-50 text-green-500  justify-between cursor-pointer ` : `flex py-2.5  justify-between cursor-pointer hover:text-green-500`}>
-                                                                <div className="pl-6 flex gap-5 hover:text-green-500z">
+                                                                <div className="pl-6 flex gap-5 hover:text-green-500">
                                                                         <svg class={selected === 2 ? "w-6 h-6 mt-4 text-green-600 dark:text-white" : "w-6 h-6 mt-4 text-gray-800 dark:text-white"} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 19">
                                                                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.013 7.962a3.519 3.519 0 0 0-4.975 0l-3.554 3.554a3.518 3.518 0 0 0 4.975 4.975l.461-.46m-.461-4.515a3.518 3.518 0 0 0 4.975 0l3.553-3.554a3.518 3.518 0 0 0-4.974-4.975L10.3 3.7" />
                                                                         </svg>

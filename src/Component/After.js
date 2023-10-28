@@ -10,11 +10,11 @@ export default function After(props) {
     <div className='flex justify-center align-middle'>
       <div class="md:mt-8 flex justify-center flex-col items-center  ">
         <h1 className='text-3xl  mt-20 font-medium'>Bank Details</h1>
-        <div className='w-[80%] md:w-[50%] mt-4 mb-8 ' >
+        <div className='w-[80%] md:w-[60%] mt-4 mb-8 ' >
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque non reiciendis quod provident unde nostrum tempora, perferendis fuga quos odit vel nobis harum adipisci. Deserunt rerum dolorum a est commodi veniam iure voluptate. Placeat.
           </p>
         </div>
-        <form className='  w-[95%] shadow-2xl px-0 md:px-10 py-10 md:w-[50%]'>
+        <form className='  w-[95%] shadow-2xl px-0 md:px-10 py-10 md:w-[60%]'>
           <div class="flex flex-wrap gap-4 md:gap-[9rem]  justify-left items-center mb-6">
             <div class="">
               <label class="block font-semibold md:text-right mb-0 px-6 pr-4" for="inline-full-name">
@@ -102,7 +102,7 @@ export default function After(props) {
 
           
         </form>
-        <div className='w-[80%] md:w-[50%] mt-4 mb-8 '>
+        <div className='w-[80%] md:w-[60%] mt-4 mb-8 '>
           <p>THE ABOVE DETAILS ARE FINAL AND WILL BE USED FOR PAYMENT. IF ANY OF THESE DETAILS ARE WRONG, PLEASE CONTACT YOUR MANAGER IMMEDIATELY! ALSO EMAIL THE SAME TO ACCOUNTS@EXAMBAZAAR.COM!</p>
         </div>
         <div className="h-0.5 bg-gray-200"></div>
