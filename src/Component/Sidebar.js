@@ -31,11 +31,11 @@ function Sidebar() {
 
                                 :
                                 (
-                                        <div className="top-0 left-0 fixed w-[90vw] md:w-[17vw] h-full md:mt-16  py-3 border-2 ">
+                                        <div className="top-0 left-0 bg-white fixed w-[90vw] md:w-[17vw] h-full md:mt-16  py-3 border-2 ">
                                                 <div className="px-8 mb-3 ">
 
                                                         <button onClick={() => { setIsOpen(!isOpen) }}>
-                                                                <svg class="w-8 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                                                <svg class="w-8 h-8 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4" />
                                                                 </svg>
                                                         </button>
@@ -49,7 +49,7 @@ function Sidebar() {
                                                                         </svg>
                                                                         <span className="mt-3 text-lg font-semibold md:font-normal">My Dashboard</span>
                                                                 </div>
-                                                                <svg class={selected === 1 ? "mr-8 w-5 h-5 mt-4 text-green-600" : "mr-8 w-5 h-5 mt-4 text-gray-800 "} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
+                                                                <svg class={selected === 1 ? "mr-8 w-5 h-5 mt-4 text-green-600 " : "mr-8 w-5 h-5 mt-4 text-gray-800 "} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
                                                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1" />
                                                                 </svg>
                                                         </div>
@@ -78,7 +78,7 @@ function Sidebar() {
                                                                         </svg>
                                                                         <span className="mt-3 text-lg font-semibold md:font-normal">Daily Summary</span>
                                                                 </div>
-                                                                <svg class={selected === 3 ? "mr-8 w-5 h-5 mt-4 text-green-600" : "mr-8 w-5 h-5 mt-4 text-gray-800 "} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
+                                                                <svg class={selected === 3 ? "mr-8 w-5 h-5 mt-4 text-green-600 " : "mr-8 w-5 h-5 mt-4 text-gray-800"} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
                                                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1" />
                                                                 </svg>
                                                         </div>
